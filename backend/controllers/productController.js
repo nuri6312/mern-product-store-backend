@@ -10,6 +10,21 @@ export async function getAllProducts (req,res) {
     }
 }
 
+export async function getProductsById (req,res) {
+    const {id} = req.params
+        if(!mongoose.Types.ObjectId.isValid(id)) {
+        return res.status(404).json({success:false,message:"product not found"})
+    }
+    try {
+        const product = await ProductTb.findById(id)
+        res.status(200).json({success:true, data:product})
+    } catch (error) {
+        console.log("Error fetching products:", error.message)
+        res.status(500).json({success:false, message: "Internal server error"})
+    }
+}
+
+
 export async function createNewProduct (req,res) {
     const product = req.body
     if(!product.name || !product.image || !product.price) {
