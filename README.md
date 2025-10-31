@@ -43,7 +43,7 @@ This project demonstrates full CRUD operations — Create, Read, Update, and Del
 ## Author
 
   <b>Farhad Nuri</b><br>
-  <a href="https://github.com/yourusername">GitHub</a> <br> 
-  <a href="https://www.linkedin.com/in/farhadnuri">LinkedIn</a> <br>
+  <a href="[https://github.com/yourusername](https://github.com/nuri6312)">GitHub</a> <br> 
+  <a href="[https://www.linkedin.com/in/farhadnuri](https://www.linkedin.com/in/farhad-nuri-ba99a62a5/)">LinkedIn</a> <br>
   farhadnuri559@gmail.com 
 
