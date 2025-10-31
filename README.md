@@ -26,7 +26,7 @@ This project demonstrates full CRUD operations — Create, Read, Update, and Del
 | Framework          | Express.js               |
 | Database           | MongoDB (Mongoose)       |
 | Environment        | dotenv                   |
-| Testing (optional) | Postman / Thunder Client |
+| Testing (optional) | Postman                  |
 
 
 ## API Endpoints
